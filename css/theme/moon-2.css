@@ -144,12 +144,24 @@ body {
 b {
   color: #AB6B2B;
 }
-em {
+
+.snout {
   font-style: italic;
-  color: #AB6B2B;
+  color: #7685BA;
   display: inline-block;
 }
-em:before {
+.snout:after {
+  content: '';
+  width: 10px;
+  display: inline-block;
+}
+
+.tail {
+  font-style: italic;
+  color: #28A048;
+  display: inline-block;
+}
+.tail:before {
   content: '';
   width: 10px;
   display: inline-block;
